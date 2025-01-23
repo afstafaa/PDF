@@ -6,7 +6,8 @@ const urlsToCache = [
     '/assets/app.js',
     '/manifest.json',
     '/pdfs/file1.pdf',
-    '/pdfs/file2.pdf'
+    '/pdfs/file2.pdf',
+    '/pdfs/file3.pdf
 ];
 
 self.addEventListener('install', (event) => {
