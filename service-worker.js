@@ -7,7 +7,8 @@ const urlsToCache = [
     '/manifest.json',
     '/pdfs/file1.pdf',
     '/pdfs/file2.pdf',
-    '/pdfs/file3.pdf
+    '/pdfs/file3.pdf,
+    '/pdfs/file4.pdf
 ];
 
 self.addEventListener('install', (event) => {
